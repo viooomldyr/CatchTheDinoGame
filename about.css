@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 80px;
+  top: 0;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+.nav a:hover {
+  color: #ddffb5;
+}
+
+.about::before {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  bottom: -25px;
+  position: relative;
+}
+
+body {
+  background-color: rgb(44, 66, 45);
+  height: 120vh;
+}
+.bgdino {
+  z-index: -5;
+  opacity: 0.3;
+  position: absolute;
+  left: 13%;
+  height: 1100px;
+  overflow: hidden;
+}
+
+.logo {
+  width: 290px;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+}
+
+.text1 {
+  background-color: #dcffe59d;
+  padding: 25px 15px;
+  position: absolute;
+  width: 290px;
+  left: 50%;
+  top: 30%;
+  text-align: start;
+  letter-spacing: 1px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+  color: #000000;
+}
+
+.text1::before {
+  content: "Catch The Dino";
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.text2 {
+  background-color: #dcffe59d;
+  padding: 20px 10px 20px;
+  position: absolute;
+  width: 510px;
+  left: 22%;
+  top: 65%;
+  text-align: start;
+  letter-spacing: 1px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+
+.focus {
+  height: 180px;
+  position: absolute;
+  left: 64%;
+  top: 54%;
+}
+
+.text3 {
+  background-color: #dcffe59d;
+  padding: 20px 10px 20px;
+  position: absolute;
+  width: 470px;
+  left: 37%;
+  top: 83%;
+  text-align: start;
+  letter-spacing: 1px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+
+.music {
+  height: 180px;
+  position: absolute;
+  left: 22%;
+  top: 75%;
+}
+
+.tutor1 {
+  height: auto;
+  width: 400px;
+  position: absolute;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.453);
+  top: 115%;
+  left: 10%;
+}
+
+.ttr1 {
+  width: 200px;
+  position: absolute;
+  top: 102%;
+  left: 70%;
+}
+
+.text4 {
+  position: absolute;
+  background-color: #ffe75d;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+
+  width: 300px;
+  letter-spacing: 1px;
+  border-radius: 40px 0 60px 40px;
+  top: 125%;
+  left: 47%;
+}
+
+.tutor2 {
+  height: auto;
+  width: 400px;
+  position: absolute;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.453);
+  top: 155%;
+  left: 60%;
+}
+
+.ttr2 {
+  width: 200px;
+  position: absolute;
+  top: 155%;
+  left: 10%;
+}
+
+.text5 {
+  position: absolute;
+  background-color: #ffe75d;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  text-align: left;
+  width: 300px;
+  letter-spacing: 1px;
+  border-radius: 0 40px 60px 60px;
+  top: 170%;
+  left: 25%;
+}

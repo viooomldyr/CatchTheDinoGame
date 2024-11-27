@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catch The Dino Gameplay</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="play.css
+    "
+    />
+  </head>
+  <body>
+    <a href="index.html" id="home">
+      <i class="bx bxs-home"></i>
+    </a>
+    <button id="volume">
+      <i class="bx bx-volume-full"></i>
+    </button>
+
+    <button id="mutevolume">
+      <i class="bx bx-volume-mute"></i>
+    </button>
+
+    <audio autoplay loop>
+      <source src="lofimusic.mp3" type="audio/mpeg" />
+    </audio>
+
+    <div class="inputbox">
+      <div class="inputname">
+        <label for="nickname" class="nicknamelabel">YOUR NICKNAME</label><br />
+        <input type="text" class="nickname" placeholder="Enter your nickname" />
+        <button class="submitbtn">PLAY</button>
+      </div>
+    </div>
+    <div class="content">
+      <div id="countdown"></div>
+      <div class="st">
+        <div class="SCORE">
+          <h2 class="scr">Score</h2>
+          <h2 id="score">0</h2>
+        </div>
+
+        <div class="TIME">
+          <h2 class="tm">Time</h2>
+          <h2 id="time">20</h2>
+        </div>
+
+        <button id="start">START</button>
+        <button id="reset">RESET</button>
+      </div>
+      <div class="grid">
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+      </div>
+
+      <!-- <button id="repeatbtn">
+        <img class="repeatpic" src="" alt="" />
+      </button>
+      
+      <button id="homebtn">
+        <img class="homepic" src="" alt="" />
+      </button>
+      
+      <button id="nextlevelbtn">
+        <img class="nextpic" src="" alt="" />
+      </button> -->
+    </div>
+
+    <script src="play.js"></script>
+  </body>
+</html>

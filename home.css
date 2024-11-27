@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 80px;
+  top: 0;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+.nav a:hover {
+  color: #ddffb5;
+}
+
+.home::before {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  bottom: -25px;
+  position: relative;
+}
+
+body {
+  background-color: rgb(203, 255, 168);
+}
+
+.section1 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  animation: changeBackground 8s ease-in-out infinite;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.675);
+}
+
+@keyframes changeBackground {
+  0% {
+    background-image: url("bg1.jpeg");
+  }
+  33% {
+    background-image: url("bg2.jpeg");
+  }
+  76% {
+    background-image: url("bg3.jpeg");
+  }
+
+  100% {
+    background-image: url("bg1.jpeg");
+  }
+}
+
+.gamelogo {
+  width: 500px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  background-color: rgba(21, 29, 35, 0.321);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.section2 {
+  height: 100vh;
+  background-color: rgb(203, 255, 168);
+  display: none;
+}
+
+p {
+  font-weight: 800;
+
+  color: aliceblue;
+}
+
+.text1 {
+  font-size: 2.7em;
+  padding: 10px;
+  background-color: rgb(15, 69, 51);
+  width: 170px;
+  height: 500px;
+  text-align: left;
+  align-items: center;
+  display: flex;
+  border-top-right-radius: 60%;
+  position: absolute;
+  bottom: -100vh;
+  left: 0;
+}
+
+.text2 {
+  font-size: 1.5em;
+  padding: 15px;
+  background-color: rgb(15, 69, 51);
+  width: 360px;
+  height: 180px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  left: 80%;
+  top: 140%;
+  position: absolute;
+}
+.btn {
+  font-weight: 700;
+  font-size: 1.5em;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(7, 46, 33);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px #000000a2;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: #ddffb5;
+}

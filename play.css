@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.grid {
+  display: flex;
+  height: 468px;
+  width: 468px;
+  flex-wrap: wrap;
+}
+
+.square {
+  border: 3px solid #ffeaea;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.dino {
+  background-image: url(dino.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+body {
+  background-color: rgb(38, 59, 52);
+}
+
+.content {
+  justify-content: space-evenly;
+  margin-top: 60px;
+  display: none;
+}
+
+h2 {
+  color: white;
+  font-size: 1.9em;
+}
+
+.SCORE {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.TIME {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.scr {
+  margin-bottom: 20px;
+}
+
+.tm {
+  margin-bottom: 20px;
+}
+
+#start {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(106, 170, 64);
+  font-weight: 600;
+  font-size: 2em;
+  position: absolute;
+  margin-left: -10px;
+  border: none;
+}
+
+#start:hover {
+  background-color: rgb(61, 103, 34);
+}
+
+#reset {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(106, 170, 64);
+  font-weight: 600;
+  font-size: 2em;
+  position: absolute;
+  margin-left: -10px;
+  display: none;
+  border: none;
+}
+
+#countdown {
+  font-size: 15em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  position: absolute;
+  top: 26%;
+  border: none;
+  right: 32%;
+  display: none;
+}
+
+#home {
+  position: absolute;
+  color: rgb(29, 92, 34);
+  padding: 15px;
+  font-size: 2.5em;
+  background-color: rgb(159, 255, 223);
+  border: none;
+  left: 0;
+  top: 30%;
+
+  transition: 0.4s;
+}
+
+#home:hover {
+  color: rgb(18, 32, 27);
+}
+
+#volume {
+  position: absolute;
+  color: rgb(29, 92, 34);
+  padding: 15px;
+  font-size: 2.5em;
+  background-color: rgb(159, 255, 223);
+  border: none;
+  left: 0;
+  top: 45%;
+  transition: 0.4s;
+}
+
+#volume:hover {
+  color: rgb(18, 32, 27);
+}
+
+#mutevolume {
+  position: absolute;
+  color: rgb(29, 92, 34);
+  padding: 15px;
+  font-size: 2.5em;
+  background-color: rgb(159, 255, 223);
+  border: none;
+  left: 0;
+  top: 45%;
+  transition: 0.4s;
+  display: none;
+}
+
+#mutevolume:hover {
+  color: rgb(18, 32, 27);
+}
+
+.inputname {
+  display: block;
+  text-align: center;
+
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 40%;
+}
+
+.nicknamelabel {
+  font-size: 2em;
+  font-weight: 600;
+}
+.inputbox {
+  background-color: rgb(100, 133, 99);
+  height: 100vh;
+}
+
+.nickname {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  height: 4%;
+  width: 12em;
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+  font-weight: 600;
+}
+
+.submitbtn {
+  position: absolute;
+  display: flex;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  top: 130px;
+  left: 120px;
+  font-weight: 600;
+}
+
+.submitbtn:hover {
+  background-color: rgb(170, 255, 227);
+}
